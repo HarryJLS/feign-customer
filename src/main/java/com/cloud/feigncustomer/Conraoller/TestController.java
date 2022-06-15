@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 // 控制层
 @RestController
 public class TestController {
-    
+
     @Autowired
     private GetFeign getFeign;
 
